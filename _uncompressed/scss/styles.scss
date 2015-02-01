@@ -309,9 +309,9 @@ h1, h2 {
     background-position: 400px 193px;
     margin: 0;
     border-top: 30px solid #00fa87;
-    -webkit-animation: panelkill .8s ease-out;
-    -webkit-animation-delay: 19.1s;
-    -webkit-animation-fill-mode: forwards;
+    // -webkit-animation: panelkill .8s ease-out;
+    // -webkit-animation-delay: 19.1s;
+    // -webkit-animation-fill-mode: forwards;
 
     h1 {
         position: absolute;
@@ -330,11 +330,11 @@ h1, h2 {
 
 }
 
-@-webkit-keyframes panelkill {
-    0% {
-        transform: rotateX(0deg);
-    }
-    100% {
-        transform: rotateX(450deg);
-    }
-}
+// @-webkit-keyframes panelkill {
+//     0% {
+//         transform: rotateX(0deg);
+//     }
+//     100% {
+//         transform: rotateX(450deg);
+//     }
+// }

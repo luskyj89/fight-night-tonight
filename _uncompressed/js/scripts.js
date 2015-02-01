@@ -12,9 +12,9 @@ function init() {
     }, 2000, 'easeOutElastic', sendContent2);
 
     function sendContent2() {
-        // panel2.delay(8000).animate({
-        //     transform: 'rotateX(90deg)'
-        // }, 2000, 'easeInOutQuint');
+        panel2.delay(8000).animate({
+            top: '-600px'
+        }, 2000, 'easeInOutQuint');
     }
 
 }
